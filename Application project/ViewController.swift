@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         naviget2()
     }
     
-     func naviget(){
+    func naviget(){
         let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         navigationController?.pushViewController(navigation, animated: true)
     }

@@ -1,17 +1,17 @@
 import UIKit
 
 class ViewController11: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
-   
-
-
+    
+    
+    
     @IBOutlet weak var cv: UICollectionView!
     
     @IBOutlet weak var cv2: UICollectionView!
     
     @IBOutlet weak var cv3: UICollectionView!
     var photo = [UIImage(named: "jennu"),UIImage(named: "monil"),UIImage(named: "jenis"),UIImage(named: "keval"),UIImage(named: "yagnik"),UIImage(named: "vicky"),UIImage(named: "harshid"),UIImage(named: "janavi"),UIImage(named: "sneha")]
-  
- var img = [UIImage(named: "harshid")]
+    
+    var img = [UIImage(named: "harshid")]
     var disimg = [UIImage(named: "d1"),UIImage(named: "d2"),UIImage(named: "d3"),UIImage(named: "d4"),UIImage(named: "d5"),UIImage(named: "d6"),UIImage(named: "d7"),UIImage(named: "d8")]
     
     var storyimg = [UIImage(named: "s1"),UIImage(named: "s2"),UIImage(named: "s3"),UIImage(named: "s4"),UIImage(named: "s5"),UIImage(named: "s6"),UIImage(named: "s7"),UIImage(named: "s8"),UIImage(named: "s9")]
@@ -33,7 +33,7 @@ class ViewController11: UIViewController,UICollectionViewDelegate,UICollectionVi
         {
             return disimg.count
         }
-     
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -57,7 +57,7 @@ class ViewController11: UIViewController,UICollectionViewDelegate,UICollectionVi
             cell.discoverimg.image = disimg [indexPath.row]
             return cell
         }
-    
+        
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == cv{
@@ -97,7 +97,7 @@ class ViewController11: UIViewController,UICollectionViewDelegate,UICollectionVi
     @IBAction func moreButtonAction(_ sender: Any) {
         showAlert(title: "")
     }
-  
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == cv{
             navigation( name: id[indexPath.row], photo: storyimg[indexPath.row]!)
@@ -117,8 +117,8 @@ class ViewController11: UIViewController,UICollectionViewDelegate,UICollectionVi
     }
 }
 
-    
-    
 
-    
+
+
+
 

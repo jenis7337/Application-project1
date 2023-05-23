@@ -28,7 +28,7 @@ class ViewController10: UIViewController {
     
     @IBAction func lookingButtonAction(_ sender: Any) {
         dismiss(animated: false)
-     naviget()
+        naviget()
     }
     func naviget(){
         let a = storyboard?.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController

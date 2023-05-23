@@ -1,9 +1,9 @@
 import UIKit
 
 class ViewController12: UIViewController,UITableViewDelegate,UITableViewDataSource {
-  var id = ["deep_mangukiya","monil_4242❤️","jenis_1811😍","keval_04","yagnik_13👬","vicky_Aata","niraj_09","harsh_89","harshid_14💜","ruhsit_navadiya","akhil_navadiya","rushit_maniya😊"]
+    var id = ["deep_mangukiya","monil_4242❤️","jenis_1811😍","keval_04","yagnik_13👬","vicky_Aata","niraj_09","harsh_89","harshid_14💜","ruhsit_navadiya","akhil_navadiya","rushit_maniya😊"]
     
-
+    
     var id2 = ["113","10","200","130","122","112","190","230","299","213","123","321"]
     var id3 = ["Delivered","opened","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","opened","opened"]
     var id4 = ["1mo","1m","40m","2h","1w","2mo","1h","1m","2w","21h","2mo","1m"]
@@ -14,10 +14,10 @@ class ViewController12: UIViewController,UITableViewDelegate,UITableViewDataSour
     
     var photo3 = [UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "opened")]
     
-   override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
-  
-       
+        
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return id.count
@@ -29,7 +29,7 @@ class ViewController12: UIViewController,UITableViewDelegate,UITableViewDataSour
         cell.lb2.text = "\(id2[indexPath.row])"
         cell.lb3.text = "\(id3[indexPath.row])"
         cell.lb4.text = "\(id4[indexPath.row])"
-
+        
         cell.img.image = photo[indexPath.row]
         cell.img2.image = photo2[indexPath.row]
         cell.img3.image = photo3[indexPath.row]
@@ -49,7 +49,7 @@ class ViewController12: UIViewController,UITableViewDelegate,UITableViewDataSour
         navigationController?.pushViewController(navigate, animated: true)
         
     }
-
-
-
+    
+    
+    
 }

@@ -8,7 +8,7 @@ class ViewController7: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setconfirmButton()
- 
+        
     }
     
     @IBAction func confrimButtonAction(_ sender: Any) {

@@ -8,7 +8,7 @@
 import UIKit
 
 class chatpage: UIViewController {
-
+    
     @IBOutlet weak var chatName: UILabel!
     @IBOutlet weak var chatImg: UIImageView!
     @IBOutlet weak var textField: UITextField!
@@ -20,7 +20,7 @@ class chatpage: UIViewController {
         chatImg.image = b
         chatName.text = a
         setLable()
-       initialSetup()
+        initialSetup()
     }
     func setLable(){
         lb.layer.cornerRadius = 17
@@ -35,7 +35,7 @@ class chatpage: UIViewController {
     
     @objc private func hideKeryoard(){
         self.view.endEditing(true)
-
+        
     }
     @objc private func keyboardWillShow(Notification : NSNotification){
         if let keyboardFrame : NSValue = Notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue{
@@ -46,7 +46,7 @@ class chatpage: UIViewController {
     }
     @objc private func keyboardWillHide(){
         self.textField.frame.origin.y = 730
-//            dismiss(animated: true)
+        //            dismiss(animated: true)
     }
     deinit{
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)

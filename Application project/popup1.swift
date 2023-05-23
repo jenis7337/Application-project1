@@ -11,7 +11,7 @@ class popup1: UIViewController,UITableViewDelegate,UITableViewDataSource {
         super.viewDidLoad()
         view.alpha  = 0
         popup.layer.cornerRadius = 10
-    
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -37,7 +37,7 @@ class popup1: UIViewController,UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 75
     }
-   
+    
     @IBAction func backButtonAction(_ sender: Any) {
         naviget()
     }
