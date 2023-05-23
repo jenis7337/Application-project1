@@ -15,8 +15,9 @@ class ViewController3: UIViewController {
         continueButton.layer.masksToBounds = true
     }
     func naviget(){
-        let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewController9") as! ViewController9
-        navigationController?.pushViewController(navigation, animated: true)
+        let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewController10") as! ViewController10
+        navigation.myNav = self.navigationController
+        present(navigation, animated: false)
     }
     
 }

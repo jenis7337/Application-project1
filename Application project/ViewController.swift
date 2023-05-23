@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var signUpButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         setloginButton()
         setsignupButton()
     }
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
         naviget2()
     }
     
-    func naviget(){
+     func naviget(){
         let navigation = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         navigationController?.pushViewController(navigation, animated: true)
     }

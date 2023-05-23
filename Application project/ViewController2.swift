@@ -9,6 +9,7 @@ class ViewController2: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         setLoginButton()
     }
     
@@ -40,7 +41,7 @@ class ViewController2: UIViewController {
         naviget2()
     }
     
- 
+    
     func setLoginButton(){
         loginButton.layer.cornerRadius = 20
         loginButton.layer.masksToBounds = true

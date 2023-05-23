@@ -2,11 +2,11 @@
 import UIKit
 
 class ViewController5: UIViewController {
-
+    
     @IBOutlet weak var confirmButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-     setconfirmButton()
+        setconfirmButton()
     }
     @IBAction func confirmButtonAction(_ sender: Any) {
         showAlert(title: "")
