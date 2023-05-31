@@ -9,7 +9,7 @@ class ViewController2: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.hidesBackButton = true
+//        navigationItem.hidesBackButton = true
         setLoginButton()
     }
     

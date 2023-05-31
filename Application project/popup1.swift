@@ -2,9 +2,9 @@ import UIKit
 
 class popup1: UIViewController,UITableViewDelegate,UITableViewDataSource {
     var myNav : UINavigationController?
-    var id = ["Jenu Navadiya  ","Monil Sojitra","Rushit Navadiya","Keval Tala","Yagnik Kalathiya","Vicky Aata","Harshid Vadadoriya","Janavi Kachhi ","Sneha Magtarpara"]
+    var id = ["Jenu Navadiya  ","Monil Sojitra","Rushit Navadiya","Keval Tala","Yagnik Kalathiya","Vicky Aata","Harshid Vadadoriya","Rushit maniya ","Sneha Magtarpara"]
     
-    var photo = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "3"),UIImage(named: "2"),UIImage(named: "1")]
+    var photo = [UIImage(named: "1"),UIImage(named: "3"),UIImage(named: "3"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "3"),UIImage(named: "1"),UIImage(named: "1")]
     
     @IBOutlet weak var popup: UIView!
     override func viewDidLoad() {

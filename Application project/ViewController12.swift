@@ -1,18 +1,18 @@
 import UIKit
 
 class ViewController12: UIViewController,UITableViewDelegate,UITableViewDataSource {
-    var id = ["deep_mangukiya","monil_4242❤️","jenis_1811😍","keval_04","yagnik_13👬","vicky_Aata","niraj_09","harsh_89","harshid_14💜","ruhsit_navadiya","akhil_navadiya","rushit_maniya😊"]
+    var id = ["deep_mangukiya","monil_4242❤️","jenis_1811😍","keval_04","yagnik_13👬","vicky_Aata","niraj_09","harsh_89","harshid_14💜","ruhsit_navadiya","akhil_navadiya","rushit_maniya😊","deep_mangukiya","monil_4242❤️","jenis_1811😍","keval_04","yagnik_13👬","vicky_Aata","niraj_09","harsh_89","harshid_14💜","ruhsit_navadiya","akhil_navadiya","rushit_maniya😊"]
     
     
-    var id2 = ["113","10","200","130","122","112","190","230","299","213","123","321"]
-    var id3 = ["Delivered","opened","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","opened","opened"]
-    var id4 = ["1mo","1m","40m","2h","1w","2mo","1h","1m","2w","21h","2mo","1m"]
+    var id2 = ["113","10","200","130","122","112","190","230","299","213","123","321","113","10","200","130","122","112","190","230","299","213","123","321"]
+    var id3 = ["Delivered","opened","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","opened","opened","Delivered","opened","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","Delivered","opened","opened"]
+    var id4 = ["1mo","1m","40m","2h","1w","2mo","1h","1m","2w","21h","2mo","1m","1mo","1m","40m","2h","1w","2mo","1h","1m","2w","21h","2mo","1m"]
     
-    var photo = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "6"),UIImage(named: "4"),UIImage(named: "5")]
+    var photo = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "6"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "2"),UIImage(named: "1"),UIImage(named: "6"),UIImage(named: "1"),UIImage(named: "2")]
     
-    var photo2 = [UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk")]
+    var photo2 = [UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk"),UIImage(named: "jk")]
     
-    var photo3 = [UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "opened")]
+    var photo3 = [UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "opened"),UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "right-arrow"),UIImage(named: "opened"),UIImage(named: "opened")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

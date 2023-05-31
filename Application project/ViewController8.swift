@@ -8,6 +8,9 @@ class ViewController8: UIViewController {
         super.viewDidLoad()
         datePiker.datePickerMode = .date
         datePiker.preferredDatePickerStyle = .compact
+        datePiker.backgroundColor = .gray
+        datePiker.layer.cornerRadius = 10
+        datePiker.layer.masksToBounds = true
         setconfirmButton()
     }
     func setconfirmButton(){

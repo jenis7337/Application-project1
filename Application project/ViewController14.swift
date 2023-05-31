@@ -8,6 +8,8 @@ class ViewController14: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func user(_ sender: Any) {
+    }
     
     @IBAction func filtterButton(_ sender: Any) {
         
@@ -20,6 +22,4 @@ class ViewController14: UIViewController {
         let navigation = storyboard?.instantiateViewController(withIdentifier: "userPage") as! userPage
         navigationController?.pushViewController(navigation, animated: true)
     }
-    
-    
 }
